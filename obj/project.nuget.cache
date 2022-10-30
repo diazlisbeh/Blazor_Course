@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gy13Mh0LKVA1tyjmLkYm3DPH2ln+l4U9iu9iyvTWaTngVutiAybaRtFzIm+8GmKFbNmUvxVE7xuKT1MEEtahw==",
+  "success": true,
+  "projectFilePath": "/home/lisbeth/Class/C#/Blazor_Course/Blazor_Course.csproj",
+  "expectedPackageFiles": [
+    "/home/lisbeth/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.7/microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
