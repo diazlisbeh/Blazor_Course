@@ -1,0 +1,31 @@
+
+<form>
+<input type="text" @bind-value=@name placeholder="Nombre">
+<input type="text" @bind-value=@lastname placeholder="Apellido">
+<input type="number" @bind-value=@age placeholder="age">
+<button  @onclick="ShowText">Guardar</button>
+</form>
+<div>
+    <h1>@message</h1>
+    <p>@name</p>
+    <p>@lastname</p>
+    <p>@age</p>
+</div>
+
+
+
+@code{
+    [Parameter]
+    public string Message {get;set;}
+    string name = "";
+    string lastname = "";
+    string message= "hola tu";
+    
+    int age;
+    protected override async Task OnInitializedAsync(){
+        message = Message;
+    }
+    private void ShowText(){
+
+    }
+}

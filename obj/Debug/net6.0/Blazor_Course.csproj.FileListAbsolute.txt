@@ -25,3 +25,13 @@
 /home/lisbeth/Class/C#/Blazor_Course/obj/Debug/net6.0/Blazor_Course.pdb
 /home/lisbeth/Class/C#/Blazor_Course/obj/Debug/net6.0/Blazor_Course.genruntimeconfig.cache
 /home/lisbeth/Class/C#/Blazor_Course/obj/Debug/net6.0/ref/Blazor_Course.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Humanizer.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/MySqlConnector.dll
+/home/lisbeth/Class/C#/Blazor_Course/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/lisbeth/Class/C#/Blazor_Course/obj/Debug/net6.0/Blazor_Course.csproj.CopyComplete
