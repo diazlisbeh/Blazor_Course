@@ -1,5 +1,3 @@
-
-
 using Blazor_Course.DataAccess;
 using Blazor_Course.Entities;
 
@@ -21,5 +19,15 @@ public class B_Category{
         }
 
 
+    }
+
+    public void Update(CategoryEntity oCategory, string id){
+        using(var db = new InventaryContext()){
+            var current = db.Categories.Find(id);
+            current.CategoryName = oCategory.CategoryName;
+            current.Products = oCategory.Products;
+            db.SaveChanges();
+
+        }
     }
 }
