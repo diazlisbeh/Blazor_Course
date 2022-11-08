@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZXRzL0VqZXJjaWNpb3MvQmxhem9yUGFnZXMvRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/lisbeth/Class/C\#/Blazor_Course/Componets/Product/ListProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZXRzL1Byb2R1Y3QvTGlzdFByb2R1Y3RzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/lisbeth/Class/C\#/Blazor_Course/Componets/Product/Product.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZXRzL1Byb2R1Y3QvUHJvZHVjdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

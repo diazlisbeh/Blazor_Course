@@ -1,0 +1,34 @@
+@using Entities
+@using Business
+
+<table>
+    <thead>
+        <tr>
+            <th>Referencia</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Categoria</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in products)
+        {
+            <tr>
+                <th>@product.ProductId</th>
+                <th>@product.ProductName</th>
+                <th>@product.ProductDescription</th>
+                <th>@product.Category</th>
+            </tr>
+            
+        }
+    </tbody>
+</table>
+
+
+@code {
+     List<ProductEntity> products = new List<ProductEntity>();
+    protected override async Task OnInitializedAsync(){
+        products = B_Products.GetAll();
+    }
+    
+}

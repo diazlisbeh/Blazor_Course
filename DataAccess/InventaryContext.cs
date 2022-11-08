@@ -10,18 +10,18 @@ namespace Blazor_Course.DataAccess
         public DbSet<InputOutputEntity> inOuts {get;set;}
         public DbSet<StorageEntity> Storages{get;set;}
 
-        public InventaryContext(DbContextOptions options):base( options) {}
+        // public InventaryContext(DbContextOptions options):base( options) {}
 
         public InventaryContext()
         {
         }
 
-        // protected override void OnConfiguring(DbContextOptionsBuilder options)
-        // {
-        // if(!options.IsConfigured){
-        // options.UseMySql(ServerVersion.AutoDetect("Server=localhost;Database=Inventory;Uid=root;Pwd=password123"));
-        // }
-        // }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+        if(!options.IsConfigured){
+        options.UseMySql("Server=localhost;Database=Inventory;Uid=root;Pwd=password123",ServerVersion.AutoDetect("Server=localhost;Database=Inventory;Uid=root;Pwd=password123"));
+        }
+        }
 
         protected override void OnModelCreating (ModelBuilder builder)
         {

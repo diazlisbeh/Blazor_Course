@@ -14,14 +14,28 @@
                 <label>Descripcion del producto:</label>
                 <InputTextArea @bind-Value="oProduct.ProductDescription" class="form-control"></InputTextArea>
             </div>
+            <div>
+                <InputSelect @bind-Value="oProduct.CategotyId">
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.CategotyId"> @category.CategoryName</option>
+                        
+                    }
+                </InputSelect>
+            </div>
             <input type="button" value="Agregar Producto" @onclick="SaveProduct">
     </EditForm>
 </div>
 
 @code {
     ProductEntity oProduct = new ProductEntity();
+    List<CategoryEntity> categories = new List<CategoryEntity>();
+
+    protected override async Task OnInitializedAsync(){
+        categories = B_Category.GetAll();
+    }
 
     private void SaveProduct(){
-        
+        B_Products.Create(oProduct);
     }
 }

@@ -5,10 +5,11 @@ namespace Blazor_Course.Business;
 
 public class B_Category{
 
-    public List<CategoryEntity> GetAll(){
-        using(var db = new InventaryContext()){
+    
+    public static List<CategoryEntity> GetAll(){
+       using(var db = new InventaryContext()){
             return db.Categories.ToList();
-        }
+       }
     }
 
     public void Create(CategoryEntity oCategory){

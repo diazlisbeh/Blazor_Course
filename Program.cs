@@ -12,9 +12,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 
-builder.Services.AddDbContext<InventaryContext>(options=>{
-    options.UseMySql(connect,ServerVersion.AutoDetect(connect));
-});
+// builder.Services.AddDbContext<InventaryContext>(options=>{
+//     options.UseMySql(connect,ServerVersion.AutoDetect(connect));
+// });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
