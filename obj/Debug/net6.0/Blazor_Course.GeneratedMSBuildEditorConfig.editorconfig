@@ -43,6 +43,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/lisbeth/Class/C\#/Blazor_Course/Pages/Produstss.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVzdHNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/lisbeth/Class/C\#/Blazor_Course/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

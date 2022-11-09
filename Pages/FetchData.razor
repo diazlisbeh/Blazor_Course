@@ -1,7 +1,9 @@
 ﻿@page "/fetchdata"
 
 <PageTitle>Weather forecast</PageTitle>
+<Blazor_Course.Componets.Product.Product></Blazor_Course.Componets.Product.Product>
 
+@* 
 @using Blazor_Course.Data
 @inject WeatherForecastService ForecastService
 
@@ -45,4 +47,4 @@ else
     {
         forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
     }
-}
+} *@
